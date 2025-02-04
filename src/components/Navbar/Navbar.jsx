@@ -1,38 +1,24 @@
-import { VscAccount, VscInfo, VscHome  } from "react-icons/vsc";
+import { FaGithub, FaInstagram } from "react-icons/fa";
 
-const logo = 'https://i.pinimg.com/1200x/0e/a0/71/0ea07191b9f4ee4c77e040c212e7211c.jpg'
 function Navbar() {
     return (
-        <nav className="bg-[#09090B] shadow-lg py-4">
-            <div className="container mx-auto flex justify-between items-center px-6">
-                <a href="#" className="text-[#FAFAFA] text-2xl font-bold">
-                <img 
-                    src={logo} 
-                    className="w-20 h-20 rounded-2xl" 
-                    alt="logo" 
-                />
-                </a>
-
-                <ul className="flex space-x-8">
-                    <li>
-                        <a href="#" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
-                            <VscHome  className="mr-2" /> Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
-                            <VscInfo  className="mr-2" /> About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
-                            <VscAccount  className="mr-2" /> Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <nav className="bg-[#09090B] text-[#FAFAFA] py-4">
+        <div className="max-w-screen-xl mx-auto px-4 flex justify-between items-center">
+          <div className="text-xl font-semibold">
+            <a href="https://github.com/Untitled-Master" className="hover:text-gray-400">ahmed.</a>
+          </div>
+          <div className="flex space-x-6">
+            <a href="#" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
+                            <FaGithub  className="mr-1" /> Github
+            </a>
+            <a href="https://instagram.com/untitledmaster" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
+                            <FaInstagram  className="mr-1" /> IG
+            </a>
+          </div>
+        </div>
+      </nav>
     );
-}
-
-export default Navbar;
+  }
+  
+  export default Navbar;
+  
