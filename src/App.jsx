@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import AccordionDemo from './components/Drop/Drop'
 import ProjectGrid from './components/Card/Grid'
 import BioSection from './components/BioSection/BioSection'
+import ClubExperience from './components/Club/Club'
 
 
 function App() {

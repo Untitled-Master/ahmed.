@@ -3,6 +3,7 @@ import { GraduationCap, Award, School, Github, Linkedin, Mail, MapPin, BookOpen 
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import CTFExperience from '../Exp/Exp';
+import ClubExperience from '../Club/Club';
 
 const BioSection = () => {
   const education = [
@@ -182,6 +183,7 @@ const BioSection = () => {
               </div>
             </CardContent>
             <CTFExperience />
+            <ClubExperience />
           </Card>
           
         </div>

@@ -1,61 +1,91 @@
 import ProjectCard from "./Card";
+import ESTINSRC from "../../assets/estinsrc.png"
+import ORIGO from "../../assets/ORIGO.png"
+import ELEARN from "../../assets/estinelearn.png"
+import API from "../../assets/api.png"
+import NEXO from "../../assets/nexocode.png"
+import GYM from "../../assets/gym.png"
 
 const ProjectGrid = () => {
   // Sample project data - replace with your actual projects
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution with real-time inventory management",
-      image: "/api/placeholder/400/200",
-      github: "https://github.com/yourusername/project1",
-      liveUrl: "https://project1.com",
+      title: "Estin src",
+      description: "Discover and access comprehensive collections of educational resources across different domains",
+      image: ESTINSRC,
+      github: "https://github.com/Untitled-Master/Estin-SRC",
+      liveUrl: "https://estin-src-kappa.vercel.app/",
       features: [
-        "User authentication and authorization",
-        "Real-time inventory tracking",
-        "Payment integration with Stripe",
-        "Order management system"
+        "Fresh design with multiple themes"
       ],
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Redux"]
+      technologies: ["Html", "CSS", "JS"]
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management tool for teams",
-      image: "/api/placeholder/400/200",
-      github: "https://github.com/yourusername/project2",
-      liveUrl: "https://project2.com",
+      title: "ORIGO Club Page",
+      description: "A community-driven club dedicated to environmental sustainability and social impact.",
+      image: ORIGO,
+      github: "https://github.com/Untitled-Master/Origo",
+      liveUrl: "https://origo-pearl.vercel.app/",
       features: [
-        "Real-time updates with WebSocket",
-        "Team collaboration features",
-        "File attachments and sharing",
-        "Progress tracking"
+        "Shadcn Showcase UI",
+        "Implementing Tailwind css",
+        "React.js for frontend",
       ],
-      technologies: ["Next.js", "TypeScript", "PostgreSQL", "Socket.io"]
+      technologies: ["React.js", "Js", "Tailwind", "Shadcn UI"]
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather monitoring with historical data analysis",
-      image: "/api/placeholder/400/200",
-      github: "https://github.com/yourusername/project3",
+      title: "ESTIN ELEARN",
+      description: "A new frontend prototype for the platfrom estin elearn",
+      image: ELEARN,
+      github: "https://github.com/Untitled-Master/Estin-Elearn-UI",
+      liveUrl: "https://estin-elearn.vercel.app/",
       features: [
-        "Real-time weather updates",
-        "Interactive weather maps",
-        "7-day forecast",
-        "Historical data charts"
+        "Shadcn Showcase UI",
+        "Implementing Tailwind css",
+        "React.js for frontend",
       ],
-      technologies: ["React", "D3.js", "Weather API", "Chart.js"]
+      technologies: ["React.js", "Js", "Tailwind", "Shadcn UI"]
     },
     {
-      title: "Social Media Analytics",
-      description: "Analytics dashboard for social media performance tracking",
-      image: "/api/placeholder/400/200",
-      liveUrl: "https://project4.com",
+      title: "Social Media API",
+      description: "This Flask API is connected to a Firebase Realtime Database and allows creating, reading, updating, deleting, liking, and commenting on posts.",
+      image: API,
+      github: "https://github.com/Untitled-Master/ByteCraft-backendChallenge",
       features: [
-        "Multi-platform integration",
-        "Custom reporting",
-        "Engagement metrics",
-        "Automated insights"
+        "CRUD Operations with Firebase Realtime Database",
+        "Like and Comment Functionality",
+        "RESTful API Design",
+        "Python Requests for Client Interaction"
       ],
-      technologies: ["Vue.js", "Python", "FastAPI", "PostgreSQL"]
+      technologies: ["Python", "Firebase ", "Flask", "RT Databse"]
+    },
+    {
+      title: "Nexo Code",
+      description: "A Python code editor",
+      image: NEXO,
+      github: "https://github.com/Untitled-Master/NexoCode",
+      features: [
+        "Multi-Tab Code Editor",
+        "Syntax Highlighting",
+        "Custom Keybindings",
+        "Discord Rich Presence Integration – Updates Discord status when the app is running if Discord is open."
+      ],
+      technologies: [    "Python",
+        "Tkinter (GUI Framework)",
+        "pypresence (Discord Rich Presence)",
+        "psutil (Process Management)"]
+    },
+    {
+      title: "Olympia Gym",
+      description: "a gym managment website.",
+      image: GYM,
+      github: "https://github.com/Untitled-Master/Olympia-Gym",
+      liveUrl:"https://olympia-gym-pearl.vercel.app/web/home.html",
+      features: [
+        "CRUD Operations with Firebase Realtime Database",
+        "Easy to use"
+      ],
+      technologies: ["Bulma", "Firebase ", "Js", "RT Databse"]
     }
   ];
 

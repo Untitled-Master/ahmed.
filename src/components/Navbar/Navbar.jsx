@@ -9,10 +9,10 @@ function Navbar() {
           </div>
           <div className="flex space-x-6">
             <a href="#" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
-                            <FaGithub  className="mr-1" /> Github
+                            <FaGithub  className="mr-1" />
             </a>
             <a href="https://instagram.com/untitledmaster" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
-                            <FaInstagram  className="mr-1" /> IG
+                            <FaInstagram  className="mr-1" />
             </a>
           </div>
         </div>
