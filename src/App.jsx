@@ -2,6 +2,9 @@ import './App.css'
 import Hero from './components/Hero/Hero'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
+import AccordionDemo from './components/Drop/Drop'
+import ProjectGrid from './components/Card/Grid'
+import BioSection from './components/BioSection/BioSection'
 
 
 function App() {
@@ -17,7 +20,11 @@ function App() {
           ctaText="Explore Now"
           onCtaClick={() => window.open("https://github.com/Untitled-Master", "_blank")}
       />
+      <BioSection />
+      <ProjectGrid />
+      <AccordionDemo />
       <Footer />
+
     </>
   )
 }
