@@ -2,6 +2,7 @@ import React from 'react';
 import { GraduationCap, Award, School, Github, Linkedin, Mail, MapPin, BookOpen } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import CTFExperience from '../Exp/Exp';
 
 const BioSection = () => {
   const education = [
@@ -180,7 +181,9 @@ const BioSection = () => {
                 ))}
               </div>
             </CardContent>
+            <CTFExperience />
           </Card>
+          
         </div>
       </div>
     </div>
