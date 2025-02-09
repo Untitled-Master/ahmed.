@@ -60,14 +60,16 @@ const ProjectGrid = () => {
   ];
 
   return (
-    <div className="mx-auto px-96 sm:px-6 lg:px-8 py-8 bg-[#09090B]">
-      <h2 className="text-2xl sm:text-3xl font-bold text-zinc-100 mb-6">📁 My Projects:</h2>
-      <hr className="border-zinc-800" />
-      <br />
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
+    <div className="w-full bg-[#09090B]"> {/* Full-width background */}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8"> {/* Centered container with max-width */}
+        <h2 className="text-2xl sm:text-3xl font-bold text-zinc-100 mb-6">📁 My Projects:</h2>
+        <hr className="border-zinc-800" />
+        <br />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {projects.map((project, index) => (
+            <ProjectCard key={index} project={project} />
+          ))}
+        </div>
       </div>
     </div>
   );
