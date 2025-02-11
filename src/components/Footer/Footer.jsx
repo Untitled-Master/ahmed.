@@ -36,7 +36,7 @@ function Footer() {
           {/* Social Media Icons */}
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://x.com/untitledmaster0"
               aria-label="Twitter"
               className="hover:text-gray-400 transition-colors duration-200"
             >
@@ -52,7 +52,7 @@ function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://github.com/Untitled-Master"
               aria-label="GitHub"
               className="hover:text-gray-400 transition-colors duration-200"
             >
