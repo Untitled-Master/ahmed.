@@ -8,7 +8,7 @@ function Navbar() {
             <a href="https://github.com/Untitled-Master" className="hover:text-gray-400">ahmed.</a>
           </div>
           <div className="flex space-x-6">
-            <a href="#" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
+            <a href="https://github.com/Untitled-Master" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
                             <FaGithub  className="mr-1" />
             </a>
             <a href="https://instagram.com/untitledmaster" className="flex items-center text-[#FAFAFA] text-lg font-medium hover:text-gray-400 transition duration-300">
