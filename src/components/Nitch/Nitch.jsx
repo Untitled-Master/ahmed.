@@ -3,7 +3,7 @@ import { BlurFade } from "../magicui/blur-fade";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Maximize2, X } from "lucide-react";
 
-const images = Array.from({ length: 9 }, (_, i) => {
+const images = Array.from({ length: 6 }, (_, i) => {
   return `https://www.nitch.com/content/notes/1739306197-${i}.jpg`;
 });
 
