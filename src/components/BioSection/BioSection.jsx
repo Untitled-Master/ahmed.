@@ -38,17 +38,17 @@ const BioSection = () => {
   const socialLinks = [
     {
       icon: Github,
-      url: "https://github.com/ahmeed1743",
+      url: "https://github.com/Untitled-Master",
       label: "GitHub"
     },
     {
       icon: Linkedin,
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://www.linkedin.com/in/ahmed-belmehnouf-b317b5350/",
       label: "LinkedIn"
     },
     {
       icon: Mail,
-      url: "mailto:your.email@example.com",
+      url: "mailto:a_belmehnouf@estin.dz",
       label: "Email"
     }
   ];
