@@ -12,6 +12,7 @@ function App() {
   return (
     <> 
       <Navbar />
+      <ModernGallery />
       <Hero 
           imageSrc="https://i.pinimg.com/736x/d4/d8/98/d4d898d6a7f61fb60941b5203d2e893b.jpg"
           title="ahmed."
@@ -21,7 +22,6 @@ function App() {
           ctaText="Explore Now"
           onCtaClick={() => window.open("https://github.com/Untitled-Master", "_blank")}
       />
-      <ModernGallery />
       <BioSection />
       <ProjectGrid />
       <AccordionDemo />
