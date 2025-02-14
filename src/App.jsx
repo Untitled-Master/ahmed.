@@ -5,14 +5,16 @@ import Navbar from './components/Navbar/Navbar'
 import AccordionDemo from './components/Drop/Drop'
 import ProjectGrid from './components/Card/Grid'
 import BioSection from './components/BioSection/BioSection'
+import ModernGallery from './components/Nitch/Nitch'
 
 
 function App() {
   return (
     <> 
       <Navbar />
+      <ModernGallery />
       <Hero 
-          imageSrc="https://i.pinimg.com/1200x/0e/a0/71/0ea07191b9f4ee4c77e040c212e7211c.jpg"
+          imageSrc="https://i.pinimg.com/736x/d4/d8/98/d4d898d6a7f61fb60941b5203d2e893b.jpg"
           title="ahmed."
           subtitle="Unique Approach"
           description="Pure mathematics is, in its way, the poetry of logical ideas."

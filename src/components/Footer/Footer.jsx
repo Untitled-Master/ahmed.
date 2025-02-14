@@ -8,30 +8,6 @@ function Footer() {
             <p>&copy; 2025 Ahmed Belmehnouf. All rights reserved.</p>
           </div>
 
-          {/* Links Section */}
-          <div className="flex flex-wrap justify-center space-x-4">
-            <a
-              href="#"
-              className="hover:text-gray-400 transition-colors duration-200"
-              aria-label="Privacy Policy"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="#"
-              className="hover:text-gray-400 transition-colors duration-200"
-              aria-label="Terms of Service"
-            >
-              Terms of Service
-            </a>
-            <a
-              href="#"
-              className="hover:text-gray-400 transition-colors duration-200"
-              aria-label="Contact"
-            >
-              Contact
-            </a>
-          </div>
 
           {/* Social Media Icons */}
           <div className="flex space-x-4">
@@ -68,7 +44,7 @@ function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/ahmed-belmehnouf-b317b5350/"
               aria-label="LinkedIn"
               className="hover:text-gray-400 transition-colors duration-200"
             >
