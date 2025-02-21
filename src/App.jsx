@@ -6,6 +6,7 @@ import AccordionDemo from './components/Drop/Drop'
 import ProjectGrid from './components/Card/Grid'
 import BioSection from './components/BioSection/BioSection'
 import ModernGallery from './components/Nitch/Nitch'
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
