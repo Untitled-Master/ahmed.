@@ -48,7 +48,7 @@ const AboutMe = () => {
     {
       year: "2024",
       title: "CTF Competitor",
-      desc: "Active participant in Capture The Flag competitions, achieving top 50% performance ranking",
+      desc: "Active participant in Capture The Flag competitions, achieving top 25% performance ranking",
       location: "Cybersecurity Competitions",
     },
     {
@@ -58,23 +58,30 @@ const AboutMe = () => {
       location: "Algeria",
     },
   ]
+const competitions = [
+  {
+    name: "NextRace CTF",
+    organizer: "Nexus Club",
+    placement: "13th Place",
+    details: "13/26 teams • 50th Percentile",
+    type: "CTF",
+  },
+  {
+    name: "Cicada Game OSINT",
+    organizer: "Nexus Club",
+    placement: "3/4 Challenges",
+    details: "Successfully solved 3 out of 4 challenges",
+    type: "OSINT Challenge",
+  },
+  {
+    name: "HACK.INI 2025",
+    organizer: "Shellmates Club",
+    placement: "21st Place",
+    details: "21/97 teams • ~21.6th Percentile • Played with Haitomass as team cogit0wn",
+    type: "CTF",
+  },
+];
 
-  const competitions = [
-    {
-      name: "NextRace CTF",
-      organizer: "Nexus Club",
-      placement: "13th Place",
-      details: "13/26 teams • 50th Percentile",
-      type: "Team Competition",
-    },
-    {
-      name: "Cicada Game OSINT",
-      organizer: "Nexus Club",
-      placement: "3/4 Challenges",
-      details: "Successfully solved 3 out of 4 challenges",
-      type: "OSINT Challenge",
-    },
-  ]
 
   const clubs = [
     {
