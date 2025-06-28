@@ -471,17 +471,17 @@ const competitions = [
                     <div className="bg-[#FAFAFA]/8 backdrop-blur-xl rounded-3xl p-8 border border-[#FAFAFA]/15 space-y-6">
                       <div className="grid grid-cols-2 gap-6">
                         <div className="text-center p-6 bg-[#FAFAFA]/5 rounded-2xl">
-                          <div className="text-3xl font-bold text-[#FAFAFA] mb-2">Top 50%</div>
+                          <div className="text-3xl font-bold text-[#FAFAFA] mb-2">Top 21%</div>
                           <div className="text-sm text-[#FAFAFA]/60">Performance Ranking</div>
                         </div>
                         <div className="text-center p-6 bg-[#FAFAFA]/5 rounded-2xl">
-                          <div className="text-3xl font-bold text-[#FAFAFA] mb-2">1</div>
+                          <div className="text-3xl font-bold text-[#FAFAFA] mb-2">2</div>
                           <div className="text-sm text-[#FAFAFA]/60">CTFs Completed</div>
                         </div>
                       </div>
 
                       <div className="text-center p-6 bg-[#FAFAFA]/5 rounded-2xl">
-                        <div className="text-3xl font-bold text-[#FAFAFA] mb-2">13/26</div>
+                        <div className="text-3xl font-bold text-[#FAFAFA] mb-2">21/97</div>
                         <div className="text-sm text-[#FAFAFA]/60">Best Team Placement</div>
                       </div>
                     </div>
