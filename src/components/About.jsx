@@ -253,7 +253,7 @@ const competitions = [
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-[#FAFAFA]/70">CTF Ranking</span>
-                    <span className="text-sm font-medium text-[#FAFAFA]">Top 50%</span>
+                    <span className="text-sm font-medium text-[#FAFAFA]">Top 21%</span>
                   </div>
                 </div>
               </div>
