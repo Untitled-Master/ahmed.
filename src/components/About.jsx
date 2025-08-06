@@ -41,6 +41,12 @@ const AboutMe = () => {
   const achievements = [
     {
       year: "2024",
+      title: "IT Intern – Maximo Configuration",
+      desc: "Learning and working with a team on the Maximo Application Suite, focusing on its features, configuration, and practical use.",
+      location: "Remot",
+    },
+    {
+      year: "2024",
       title: "ESTIN Computer Science Student",
       desc: "Currently pursuing advanced studies in Computer Science at Higher School of Computer Science and Digital Technologies",
       location: "Bejaia, Algeria",
@@ -582,3 +588,4 @@ const competitions = [
 }
 
 export default AboutMe
+
