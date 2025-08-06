@@ -86,6 +86,13 @@ const competitions = [
     details: "21/97 teams • ~21.6th Percentile • Played with Haitomass as team cogit0wn",
     type: "CTF",
   },
+  {
+    name: "Junction x Algiers",
+    organizer: "CELEC Club",
+    placement: "/",
+    details: "We had fun • Played with Haitomass as team cogit0wn",
+    type: "HACKATHON",
+  },
 ];
 
 
@@ -588,4 +595,5 @@ const competitions = [
 }
 
 export default AboutMe
+
 
