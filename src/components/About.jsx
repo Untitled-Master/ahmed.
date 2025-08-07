@@ -44,24 +44,28 @@ const AboutMe = () => {
       title: "IT Intern – Maximo Configuration",
       desc: "Learning and working with a team on the Maximo Application Suite, focusing on its features, configuration, and practical use.",
       location: "Remot",
+      img: "https://www.ituser.es/files/202310/ibm-logo.jpg",
     },
     {
       year: "2024",
       title: "ESTIN Computer Science Student",
       desc: "Currently pursuing advanced studies in Computer Science at Higher School of Computer Science and Digital Technologies",
       location: "Bejaia, Algeria",
+      img: "https://elearn.estin.dz/pluginfile.php/1/theme_klass/slide1image/1685881281/etudiants-promo-estin-bejaia-juin-2022-1-scaled.jpg",
     },
     {
       year: "2024",
       title: "CTF Competitor",
       desc: "Active participant in Capture The Flag competitions, achieving top 25% performance ranking",
       location: "Cybersecurity Competitions",
+      img: "https://media.licdn.com/dms/image/v2/D5612AQEMTmdASEpqog/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680103178404?e=1759968000&v=beta&t=U6-xLNTjhUuEFip23LwfRWcmH-g8A8xieO0HVmxlWfE",
     },
     {
       year: "2023",
       title: "BAC Excellence",
       desc: "Graduated with 17.60/20 overall grade, 19.5/20 in Mathematics - demonstrating strong analytical skills",
       location: "Algeria",
+      img: "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg",
     },
   ]
 const competitions = [
@@ -344,18 +348,34 @@ const competitions = [
                         <div key={index} className="relative pl-8 pb-8 border-l border-[#FAFAFA]/20 last:border-l-0">
                           <div className="absolute -left-2 top-0 w-4 h-4 bg-[#FAFAFA]/30 rounded-full border-2 border-[#09090B]"></div>
                           <div className="bg-[#FAFAFA]/8 backdrop-blur-xl rounded-2xl p-6 border border-[#FAFAFA]/15 hover:bg-[#FAFAFA]/12 hover:border-[#FAFAFA]/25 transition-all duration-500 group">
-                            <div className="flex items-center justify-between mb-3">
-                              <span className="text-sm font-medium text-[#FAFAFA]/60 bg-[#FAFAFA]/10 px-3 py-1 rounded-full">
-                                {achievement.year}
-                              </span>
-                              <div className="flex items-center space-x-2">
-                                <MapPin className="w-4 h-4 text-[#FAFAFA]/40" />
-                                <span className="text-xs text-[#FAFAFA]/50">{achievement.location}</span>
-                              </div>
-                            </div>
-                            <h4 className="text-lg font-semibold text-[#FAFAFA] mb-2">{achievement.title}</h4>
-                            <p className="text-[#FAFAFA]/70 leading-relaxed">{achievement.desc}</p>
-                          </div>
+  <div className="flex items-center justify-between mb-3">
+    <span className="text-sm font-medium text-[#FAFAFA]/60 bg-[#FAFAFA]/10 px-3 py-1 rounded-full">
+      {achievement.year}
+    </span>
+    <div className="flex items-center space-x-2">
+      <MapPin className="w-4 h-4 text-[#FAFAFA]/40" />
+      <span className="text-xs text-[#FAFAFA]/50">{achievement.location}</span>
+    </div>
+  </div>
+
+  <div className="grid grid-cols-1 sm:grid-cols-[140px,1fr] gap-4 items-start">
+    {achievement.img && (
+      <div className="overflow-hidden rounded-xl border border-[#FAFAFA]/15 bg-[#FAFAFA]/5">
+        <img
+          src={achievement.img}
+          alt={achievement.title}
+          className="w-full h-32 sm:h-28 object-cover transition-transform duration-500 group-hover:scale-105"
+          loading="lazy"
+        />
+      </div>
+    )}
+
+    <div>
+      <h4 className="text-lg font-semibold text-[#FAFAFA] mb-2">{achievement.title}</h4>
+      <p className="text-[#FAFAFA]/70 leading-relaxed">{achievement.desc}</p>
+    </div>
+  </div>
+</div>
                         </div>
                       ))}
                     </div>
@@ -595,5 +615,6 @@ const competitions = [
 }
 
 export default AboutMe
+
 
 
